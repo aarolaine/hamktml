@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aaro Laine">
     <meta name="description" content="This HTML website has been created as an exercise for HAMK.">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style></style>
+    <!-- I've included all types of CSS. Internal, external and inline. This is a comment by the way. -->
     <title>Website</title>
 </head>
 <body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul> 
     <h1>Exercise 1</h1>
     <p>Text inside a &lt;p&gt; tag</p>
+    <p>Since I don't own any social media accounts, here's some external links for finnish news.</p>
     <a href="https://www.iltalehti.fi/">Iltalehti</a>
     <a href="https://www.mtv.fi/">MTV</a>
     <a href="https://yle.fi/">YLE</a>
@@ -17,7 +26,30 @@
     <p><i>Italic text</i></p>
     <p><u>Text with an underline</u></p>
     <p><s>Text with strikethrough formatting just for fun</s></p>
-    <img src="img/image1.jpg" width="25%" height="25%">
+    <img src="img/image1.jpg" width="25%" height="25%" />
     <p>Above is an image with a Creative Commons license saved to my PC and linked locally.</p>
+    <h1>Exercise 2</h1>
+    <article>
+    <img src="img/image2.png" width="12.5%" height="12.5%" style="float:right" />
+    <h2>Firefox</h2>
+    <p>Firefox is a free and open-source web browser.<br>
+        This image of the Firefox logo is in the .png format, which means it has better quality than .jpg but bigger load times.</p>
+    </article>
+    <address>Hämeen ammattikorkeakoulu<br>
+        HAMK PL 230<br>
+        13101 Hämeenlinna</address>
+    <h1>Exercise 3</h1>
+    <p><b>Q: How can you type the latin characters such as ä, ö etc in your html Document?</b></p>
+    <p>A: By setting the character set to UTF-8 or using HTML entities</p>
+    <br>
+    <p><b>Q: What is your own understandings on the differences between HTML and HTML5?</b></p>
+    <p>A: HTML5 is the latest version of HTML (Abbreviation for Hyper Text Markup Language)</p>
+    <br>
+    <figure>
+        <img src="img/image3.jpg" alt="Pyramids" width="23.5% height="23.5%" />
+        <figcaption>Random image of three dimensional pyramids.</figcaption>
+    </figure>
+    <p style="margin: 50px">Instead of the &lt;video&gt; tag, I embedded this music video of Dua Lipa's song "Break My Heart".</p>
+    <iframe style="margin-left: 100px" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Nj2U6rhnucI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
